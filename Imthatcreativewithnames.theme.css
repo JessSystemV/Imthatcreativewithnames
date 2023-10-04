@@ -115,10 +115,6 @@ div, img {
     box-shadow:none;
 }
 
-*:not([class*="hljs"]):not(code) { /* font */
-    font-family: "Fira Code";
-}
-
 .searchResultsWrap-2DKFzt { /* search result width */
     width: 666px;
 }
