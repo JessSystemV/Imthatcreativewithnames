@@ -1,6 +1,5 @@
 /*//META{"name":"I'm that creative with names","description":"High contrast, flat, compact Discord dark mode theme. Works with BetterDiscord/BeautifulDiscord/EnhancedDiscord/anything else","author":"llyyr","version":"2.1.0"}*//**/
 
-
 .theme-dark {
     --header-primary: #fff;
     --header-secondary: #b9bbbe;
@@ -109,6 +108,19 @@ div, img {
 
 [class*=timestamp], .timestampVisibleOnHover-2bQeI4 { /* make timestamps more visible */
     color: #dcb !important;
+}
+
+div.iconWrapper_af9215.clickable_d23a1a[aria-label="Help"],
+.wordmarkWindows-2dq6rw,
+div[id="user-context-invite-to-server"],
+div[id="user-context-call"]
+{
+    display: none !important;
+}
+
+.scrollableContainer__33e06
+{
+    border-radius: 25px;
 }
 
 .theme-dark [class*=searchResult-] [class*=hit-] { /* search result box */
